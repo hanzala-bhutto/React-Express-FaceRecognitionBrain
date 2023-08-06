@@ -1,0 +1,20 @@
+{
+  "name": "facerecognitionbrain",
+  "version": "1.0.0",
+  "description": "Face Recognition Brain",
+  "main": "server.js",
+  "scripts": {
+    "install-backend": "cd Backend && npm install",
+    "install-frontend": "cd Frontend && npm install",
+    "install": "npm run install-backend && npm run install-frontend",
+    "backend": "cd Backend && npm start",
+    "frontend": "cd Frontend & npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanzala-bhutto/React-Express-FaceRecognitionBrain.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
